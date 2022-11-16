@@ -1,11 +1,9 @@
+import pygame.draw
+
 from ship_movement import *
 from upload_ships import *
 
-def draw_window(red, yellow):
-    WIN.fill(WHITE)
-    WIN.blit(YELLOW_SPACESHIP_IMAGE, (yellow.x, yellow.y))
-    WIN.blit(RED_SPACESHIP_IMAGE,(red.x, red.y))
-    pygame.display.update()
+
 
 def main():
     red = pygame.Rect(700, 300, SPACESHIP_WIDTH,SPACESHIP_HEIGHT)
