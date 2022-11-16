@@ -23,3 +23,4 @@ def red_handle_movement(keys_pressed, red):
         red.y -= VEL
     if keys_pressed[pygame.K_DOWN] and red.y + VEL + red.height < HEIGHT -10: # DOWN
         red.y += VEL
+
