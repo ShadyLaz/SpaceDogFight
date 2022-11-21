@@ -1,5 +1,4 @@
-from main import *
-import pygame
+from upload_ships import *
 from upload_ships import VEL
 
 
