@@ -81,3 +81,4 @@ def draw_YELLOW_winner(text):
     WIN.blit(draw_text, (WIDTH/2 - draw_text.get_width()/2, HEIGHT/2 - draw_text.get_width()/2))
     pygame.display.update()
     pygame.time.delay(2000)
+
